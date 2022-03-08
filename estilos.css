@@ -1,0 +1,41 @@
+/* ESTILOS TELEVISORES */
+
+.contenedor {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor h2 {
+    text-align: center;
+}
+
+.itemimg img{
+    width: 80%;
+}
+
+/* ESTILOS FORMULARIO */
+
+.cotizador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cotizador p{
+    text-align: center;
+}
+
+.formulario {
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <script src="./proyecto.js"></script>
+    <title> Desafio js</title>
+</head>
+<body>
+    
+    <div class="contenedor">
+        <div class="itemimg">
+            <img src="./img/tv32.png" alt="tv32" >
+            <h2>Televisor Philips 32"</h2>
+            <h2>$28000</h2>
+        </div>
+        <div class="itemimg">
+            <img src="img/tv39.jpg" alt="tv39" >
+            <h2>Televisor Philips 39"</h2>
+            <h2>$32000</h2>
+        </div>
+        <div class="itemimg">
+            <img src="./img/tv50.jpg" alt="tv50" >
+            <h2>Televisor Philips 50"</h2>
+            <h2>$40000</h2>
+        </div>
+
+    </div>
+
+
+    <div class="cotizador">
+        <h2> PLAN DE PAGO </h2>
+        <form class="formulario">
+            <p>Seleccionar en cuantas coutas desea comprar.</p>
+
+            <div class="btn">
+            <input type="radio" name="cambio" id="uno">3 coutas(10%)
+            <input type="radio" name="cambio" id="dos">6 coutas(20%)
+            <input type="radio" name="cambio" id="tres">12 coutas(30%)
+            </div>
+            <p>Ingrese monto:</p>
+
+            <div class="btn">
+            <input type="number" id="valor">
+            <input type="button" id="cotizador" value="cotizar" onclick="convertir()">
+            </div>
+    </form>
+</div>
+</body>
+</html>
